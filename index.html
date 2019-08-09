@@ -9,7 +9,7 @@
 <link rel="stylesheet" href="leaflet.css">
 
 <script src="leaflet.js"></script>
-    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>    
     
 <style>
 
@@ -59,6 +59,11 @@
     var layersControl = L.control.layers(baselayers, null, {
         collapsed: false
     }).addTo(map);
+    
+    // Création d'une variable contenant le fichier geojson a lire
+    var patrim = $.getJSON("data.geojson");
+    
+    console.dir(patrim)
     
 </script>    
 
