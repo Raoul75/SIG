@@ -42,11 +42,23 @@
     });
 
     // Intégration d'un fond de carte de base(tile)
-    L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
-        attribution: 'DPI JJ 2018'
-    }).addTo(map);  
+    //L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+    //    attribution: 'DPI JJ 2018'
+    //}).addTo(map);  
    
+    // Création d'une base de plusieurs fonds de carte
+    var baselayers = {
+        Satellite: L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'),
+        Routière: L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png'),
+        Claire: L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}{r}.png'),
+        //OMN: L.tileLayer.wms('http://carto.atlasante.fr/cgi-bin/mapserv?',{layers: 'MetropoleProfessionnelsliberau_18'}),
+    };
+    baselayers.Claire.addTo(map);
 
+    // Création d'un menu de selection de fonds de carte
+    var layersControl = L.control.layers(baselayers, null, {
+        collapsed: false
+    }).addTo(map);
     
 </script>    
 
