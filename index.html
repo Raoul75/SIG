@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>FILIERIS</title>
+    
+<meta charset="utf-8" />
+    
+<link rel="stylesheet" href="leaflet.css">
+
+<script src="leaflet.js"></script>
+    
+    
+<style>
+
+    body {
+        padding: 0;
+        margin: 0;
+    }
+    
+    html,
+    body,
+    #map {
+        height: 100%;
+        font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+    }
+    
+</style>
+    
+</head>
+
+<body>
+
+    <div id="map"></div>
+  
+<script>
+    
+    // Création et initialisation de la carte(position et zoom)
+    var map = L.map('map', {
+        center: [46.56, 3.33],
+        zoom: 6
+    });
+
+    // Intégration d'un fond de carte de base(tile)
+    L.tileLayer('https://maps.heigit.org/openmapsurfer/tiles/roads/webmercator/{z}/{x}/{y}.png', {
+        attribution: 'DPI JJ 2018'
+    }).addTo(map);  
+   
+
+    
+</script>    
+
+
+    
+</body>
+    
+    
+</html>
