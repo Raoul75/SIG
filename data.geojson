@@ -1,0 +1,87 @@
+{
+"type": "FeatureCollection",
+                                                                                
+"features": [
+{ "type": "Feature", "id": 1, "properties": { "Nom" : "Siège National", "Adresse" : "77, Avenue de Ségur, 75015 Paris", "Nature" : "Administratif", "Administratif" : true, "Logement" : false, "Centrevac" : false, "Bailleur" : true, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 2.30623, 48.84751 ] } }
+,
+{ "type": "Feature", "id": 2, "properties": { "Nom" : "CSP Les Equipages", "Adresse" : "6, Rue François Mitterand, 71300 Montceau les mines" , "Nature" : "Mixte", "Administratif" : true, "Logement" : false, "Centrevac" : false , "Bailleur" : true, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.358278, 46.672814 ] } }
+,
+{ "type": "Feature", "id": 3, "properties": { "Nom" : "Direction Régional de l est", "Adresse" : "21, Avenue Foch, 57000 Metz", "Nature" : "Administratif", "Administratif" : true, "Logement" : false, "Centrevac" : false, "Bailleur" : true, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 6.175887, 49.111359 ] } }
+,
+{ "type": "Feature", "id": 4, "properties": { "Nom" : "Direction Régionale du nord", "Adresse" : "13, Rue du 14 juillet, 62300 Lens", "Nature" : "Administratif", "Administratif" : true, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 2.834201, 50.431108 ] } }
+,
+{ "type": "Feature", "id": 5, "properties": { "Nom" : "Direction Régionale du sud", "Adresse" : "34, Rue du Général De Gaulle, 30100 Ales", "Nature" : "Administratif", "Administratif" : true, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.082911, 44.127216 ] } }
+,
+{ "type": "Feature", "id": 6, "properties": { "Nom" : "Polyclinique Sainte Barbe", "Adresse" : "2 avenue Neckarsulm, 81400 Carmaux", "Nature" : "Etablissement", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 2.152078, 44.055402 ] } }
+,
+{ "type": "Feature", "id": 7, "properties": { "Nom" : "Résidence de Vacances des Mines de Saint-Gildas de Rhuys", "Adresse" : "5, chemin du Parc, 56730 Saint Gildas de Rhuys", "Nature" : "Centre de vacances", "Administratif" : false, "Logement" : false, "Centrevac" : true, "Bailleur" : true, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ -2.836489, 47.509648 ] } }
+,
+{ "type": "Feature", "id": 8, "properties": { "Nom" : "Pharmacie Trélazé - Les Ponts-de-Cé", "Adresse" : "258 rue Ferdinant Vest, 49130 Les Ponts-de-Cé", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ -0.488324, 47.441001 ] } }
+,
+{ "type": "Feature", "id": 9, "properties": { "Nom" : "Centre de santé de Wittenheim", "Adresse" : "26 Rue du Maréchal de Lattre de Tassigny, 68270 Wittenheim", "Nature" : "Centre de santé", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 7.339379, 47.806532 ] } }
+,
+{ "type": "Feature", "id": 10, "properties": { "Nom" : "Centre de santé de Biver", "Adresse" : "6 Rue des rosiers, 13120 Biver", "Nature" : "Centre de santé", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : false, "Locataire" : true, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 5.464117, 43.434137 ] } }
+,
+{ "type": "Feature", "id": 11, "properties": { "Nom" : "Immeuble vendu", "Adresse" : "68 rue Foch, 57700", "Nature" : "Vendu", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : false, "Locataire" : false, "Envente" : false, "Vendu" : true }, "geometry": { "type": "Point", "coordinates": [ 6.061547, 49.32994 ] } }
+,
+{ "type": "Feature", "id": 12, "properties": { "Nom" : "Bois du Verne", "Adresse" : "6 rue Anatole France, 71300 Montceau les mines", "Nature" : "Inoccupé", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : true, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.351289, 46.690305 ] } }
+,
+{ "type": "Feature", "id": 13, "properties": { "Nom" : "Pharmacie d’Alès", "Adresse" : "4 rue Jules Cazot, 30100 Alès", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.076291, 44.124539 ] } }
+,
+{ "type": "Feature", "id": 14, "properties": { "Nom" : "Pharmacie de Bessèges", "Adresse" : "17 rue Chambonnet, 30160 Bessèges", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.103199, 44.289882 ] } }
+,
+{ "type": "Feature", "id": 15, "properties": { "Nom" : "Pharmacie de La Grand-Combe", "Adresse" : "4 rue Abbée Masson, 30110 La Grand-Combe", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.029542, 44.211012 ] } }
+,
+{ "type": "Feature", "id": 16, "properties": { "Nom" : "Pharmacie de Saint-Florent-sur-Auzonnet", "Adresse" : "Bruyère et Carail Sud, 30960 Saint-Florent-sur-Auzonnet", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.111972, 44.252709 ] } }
+,
+{ "type": "Feature", "id": 17, "properties": { "Nom" : "Pharmacie de La Vernarède", "Adresse" : "Village, 30530 LA VERNAREDE", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.006832, 44.286961 ] } }
+,
+{ "type": "Feature", "id": 18, "properties": { "Nom" : "Pharmacie de Graissessac", "Adresse" : "1 Place Gambetta, 34260 Graissessac", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 3.094606, 43.678736 ] } }
+,
+{ "type": "Feature", "id": 19, "properties": { "Nom" : "Pharmacie de Carmaux", "Adresse" : "2 avenue Bouloc-Torcatis, 81400 Carmaux", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 2.157725, 44.052135 ] } }
+,
+{ "type": "Feature", "id": 20, "properties": { "Nom" : "Pharmacie d’Albi", "Adresse" : "40 avenue Albert Thomas, 81000 Albi", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 2.147288, 43.937016 ] } }
+,
+{ "type": "Feature", "id": 21, "properties": { "Nom" : "Pharmacie de Saint Etienne", "Adresse" : "15 avenue Augustin Dupré, 42000 Saint Etienne", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.380441, 45.437236 ] } }
+,
+{ "type": "Feature", "id": 22, "properties": { "Nom" : "Pharmacie de La Ricamarie", "Adresse" : "5 rue Jules Ferry, 42150 La Ricamarie", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.365325, 45.404667 ] } }
+,
+{ "type": "Feature", "id": 23, "properties": { "Nom" : "Pharmacie de La Mure", "Adresse" : "3 montée Citadelle, 38350 La Mure", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 5.788174, 44.907534 ] } }
+,
+{ "type": "Feature", "id": 24, "properties": { "Nom" : "Pharmacie de Montceau-les-Mines", "Adresse" : "8 Rue Lamartine, 71300 Montceau-les-Mines", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.360268, 46.671137 ] } }
+,
+{ "type": "Feature", "id": 25, "properties": { "Nom" : "Pharmacie de Waziers", "Adresse" : "76 rue Pasteur, 59119 Waziers", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 3.106115, 50.384807 ] } }
+,
+{ "type": "Feature", "id": 26, "properties": { "Nom" : "Pharmacie de Flers-en-Escrebieux", "Adresse" : "2 rue d'Auby, 59128 Flers-en-Escrebieux", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 3.084548, 50.402483 ] } }
+,
+{ "type": "Feature", "id": 27, "properties": { "Nom" : "Pharmacie de Wallers", "Adresse" : "place Casimir Perier, 59135 Wallers", "Nature" : "Pharmacie", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 3.429181, 50.381146 ] } }
+,
+{ "type": "Feature", "id": 28, "properties": { "Nom" : "Centre de santé de Stiring-Wendel, rue de Nancy", "Adresse" : "4 bis rue de Nancy, 57350 Stiring-Wendel", "Nature" : "Centre de santé", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 6.950552, 49.206468 ] } }
+,
+{ "type": "Feature", "id": 29, "properties": { "Nom" : "Centre de santé de Stiring-Wendel, Rue Stéphanie", "Adresse" : "238 Rue Stéphanie, 57350 Stiring-Wendel", "Nature" : "Centre de santé", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 6.929567, 49.207362 ] } }
+,
+{ "type": "Feature", "id": 30, "properties": { "Nom" : "Centre de santé de Stiring-Wendel, place Sainte Marthe", "Adresse" : "6 place Ste Marthe, 57350 Stiring-Wendel", "Nature" : "Centre de santé", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 6.927673, 49.199441 ] } }
+,
+{ "type": "Feature", "id": 31, "properties": { "Nom" : "Hôpital et pôle de médecine physique et de réadaptation", "Adresse" : "2 rue de France, 57800 Freyming-Merlebach", "Nature" : "Etablissement", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 6.803441, 49.155286 ] } }
+,
+{ "type": "Feature", "id": 32, "properties": { "Nom" : "Soins de suite et de réadaptation - unité de soins longue durée", "Adresse" : "route Gondreville, 57220 Charleville-sous-Bois", "Nature" : "Etablissement", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 6.408509, 49.174853 ] } }
+,
+{ "type": "Feature", "id": 33, "properties": { "Nom" : "Soins de suite et de réadaptation La Pomarède", "Adresse" : "rue de La Maternité, 30110 Les Salles-du-Gardon", "Nature" : "Etablissement", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.021015, 44.211924 ] } }
+,
+{ "type": "Feature", "id": 34, "properties": { "Nom" : "Services de soins infirmiers à domicile", "Adresse" : "49 Rue Paul Vialar, 81400 Blaye-les-Mines", "Nature" : "SAD", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 2.146002, 44.047290 ] } }
+,
+{ "type": "Feature", "id": 35, "properties": { "Nom" : "Centre de santé de Carvin", "Adresse" : "3 rue de l'Avenir, 62220 Carvin", "Nature" : "Centre de santé", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 2.960099, 50.495975 ] } }
+,
+{ "type": "Feature", "id": 36, "properties": { "Nom" : "Centre de santé de Dechy", "Adresse" : "24 rue Marcel Cachin, 59187 Dechy", "Nature" : "Centre de santé", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 3.127144, 50.346871 ] } }
+,
+{ "type": "Feature", "id": 37, "properties": { "Nom" : "Centre optique", "Adresse" : "4 quai d'Isly, 68100 Mulhouse", "Nature" : "Centre optique", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 7.339792, 47.741907 ] } }
+,
+{ "type": "Feature", "id": 38, "properties": { "Nom" : "Centre optique", "Adresse" : "15 rue de Carmaux BP 30141, 57804 Freyming-Merlebach", "Nature" : "Centre optique", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 6.813708, 49.151634 ] } }
+,
+{ "type": "Feature", "id": 39, "properties": { "Nom" : "Centre optique", "Adresse" : "13 avenue Augustin Dupré, 42000 Saint-Etienne", "Nature" : "Centre optique", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 4.379727, 45.437461 ] } }
+,
+{ "type": "Feature", "id": 40, "properties": { "Nom" : "Location et vente de matériel médical", "Adresse" : "59 rue Pasteur, 62590 Oignies", "Nature" : "Materiel médical", "Administratif" : false, "Logement" : false, "Centrevac" : false, "Bailleur" : false, "Propriétaire" : true, "Locataire" : false, "Envente" : false, "Vendu" : false }, "geometry": { "type": "Point", "coordinates": [ 3.001544, 50.468444 ] } }
+
+]
+}
+
